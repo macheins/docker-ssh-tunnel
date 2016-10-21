@@ -19,4 +19,4 @@ ssh -vN \
   -l ${SSH_USER:-root} \
   $HOST \
   -p ${SSH_PORT:-22} \
-  -L *:22:$HOST:$PORT
+  -L *:22:localhost:$PORT
