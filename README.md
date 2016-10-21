@@ -1,4 +1,4 @@
-Open a SSH tunnel to remote `HOST` on `PORT` and expose it on container port `22`. `SSH_PRIVATE_KEY` needs to be provided. To create a tunnel from local port `12345` to `example.org:12345` using private key stored at `~/.ssh/id_rsa` the following command may be used:
+Open a SSH tunnel to remote `HOST` on `PORT` and expose it on container port `22`. `SSH_PRIVATE_KEY` needs to be provided. To create a tunnel from local port `12345` to `example.org:12345` using an *unencrypted* private key stored at `~/.ssh/id_rsa` the following command may be used:
 
 ```sh
 docker run --rm -it \
